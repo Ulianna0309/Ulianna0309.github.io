@@ -1379,8 +1379,11 @@ article {
 		padding: 6%;
 	}
 	.rates-warning {
-    margin-top: 20px;
-    }
+         margin-top: 20px;
+        }
+	.rates-block__left .areal, .rates-block__left .rooml, .rates-block__left .radiol {
+         font-size: 11px;
+        }
 	.news-text h4{
 		font-size: 14px;
 	}
