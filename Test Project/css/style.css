@@ -1362,6 +1362,9 @@ article {
 	    width: 100%;
 	    padding: 6%;
 	}
+	.rates {
+        padding: 30px 10px;
+       }
 	.rates-block__all{
 		display: block;
 	}
