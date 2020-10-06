@@ -799,7 +799,7 @@ body{
     left: 35%;
   }
 }
-@media screen and (max-width: 360px){
+@media screen and (max-width: 400px){
   .header_link {
     font-size: 10px;
   }
