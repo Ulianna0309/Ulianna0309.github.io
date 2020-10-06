@@ -799,15 +799,15 @@ body{
     left: 35%;
   }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 360px){
   .header_link {
     font-size: 10px;
   }
   .slick-slide img{
-    width: 30%;
+    width: 29%;
   }
   .wrapper2{
-    width: 25%;
+    width: 23%;
   }
   .banner__slider-title{
     margin-bottom: 10px;
