@@ -48,21 +48,21 @@ body {
     font-size: 22px;
     font-weight: 700;
     line-height: 24px;
-    color: #ffffff;
+    color: #616974;
     margin-bottom: 20px;
 }
 .contacts-link {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    color: #616974;
+    color: #ffffff;
     text-decoration: none;
 }
 .contacts-link-type {
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
-    color: #ffffff;
+    color: #616974;
     margin-right: 10px;
 }
 .tech-skills-title {
