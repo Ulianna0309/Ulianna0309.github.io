@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #595959;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+
+}
+.page{
+    overflow: hidden;
+}
+.wrapper {
+    background-color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /*box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15) !important;*/
+    height: 100vh;
+    padding: 10px;
+}
+.sidebar {
+    background-color: #1e2939;
+    width: 500px;
+}
+.my-photo {
+    width: 100%;
+    height: auto;
+}
+.about-me {
+    padding: 40px 60px 20px;
+    -webkit-box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+}
+.contacts {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.contacts-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.contacts-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #616974;
+    text-decoration: none;
+}
+.contacts-link-type {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+.tech-skills-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.tech-skills {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 55px;
+}
+.tech-skills-item{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ff6b08;
+    margin-left: 15px;
+}
+.tech-skills-text {
+    color: #ffffff;
+}
+.header {
+    margin-bottom: 10px;
+}
+.header-prof {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 13px;
+}
+.header-title {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.header-p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 413px;
+    color: #595959;
+    margin-top: 24px;
+
+}
+
+.project-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 10px;
+    margin-left: -16px;
+}
+.number{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000000;
+
+}
+.project-link-href {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 10px;
+}
+.project-link-points {
+    font-weight: initial;
+}
+
+.mark {
+    font-weight: 700;
+}
+.text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.work-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.list-block {
+    margin: 0 16px;
+}
+
+.list {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.work-manager {
+    margin-top: 24px;
+}
+.work-group {
+    margin-top: 31px;
+}
+.education {
+    margin-top: 55px;
+}
+.ed-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.front-work{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.front{
+    width: 33%;
+}
+
+
+@media (max-width: 1024px) {
+    .front-work{
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .front{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .header-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+}
+
+@media (max-width: 540px) {
+.wrapper {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 10px;
+}
+.my-photo {
+    width: 100%;
+    height: auto;
+}
+.about-me {
+    padding: 20px 10px 10px 10px;
+
+}
+.sidebar {
+    padding: 10px;
+    width: 100%;
+}
+.header-title{
+    font-size: 27px;
+}
+.contacts{
+    margin: 20px 0 0 0;
+}
+.contacts-link{
+    font-size: 12px;
+}
+.front{
+    width: 100%;
+}
+}
