@@ -235,6 +235,7 @@ body {
 .sidebar {
     padding: 10px;
     width: 100%;
+    height: 50%;
 }
 .header-title{
     font-size: 27px;
@@ -244,8 +245,5 @@ body {
 }
 .contacts-link{
     font-size: 12px;
-}
-.front{
-    width: 100%;
 }
 }
