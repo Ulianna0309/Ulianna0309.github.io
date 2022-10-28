@@ -212,7 +212,7 @@ body {
 
 }
 
-@media (max-width: 540px) {
+@media (max-width: 768px) {
 .wrapper {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -225,7 +225,8 @@ body {
 }
 .my-photo {
     width: 100%;
-    height: auto;
+    height: 50%;
+    object-fit: cover;
 }
 .about-me {
     padding: 20px 10px 10px 10px;
